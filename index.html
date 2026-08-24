@@ -3,254 +3,188 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>GovAI — LLMs for the Uzbekistan Government</title>
-<meta name="description" content="GovAI is secure AI infrastructure built for government. Sovereign LLMs, agents and templates that give every public servant their time back — an end for bureaucracy." />
-<meta property="og:title" content="GovAI — LLMs for the Uzbekistan Government" />
-<meta property="og:description" content="Secure, sovereign AI infrastructure for 100,000+ public servants. ChatGPT, but for government." />
+<title>GovAI — Sovereign AI Infrastructure for the Uzbekistan Government</title>
+<meta name="description" content="GovAI is secure, sovereign AI infrastructure built for government. LLMs, agents and templates that give every public servant their time back — run entirely on local infrastructure." />
+<meta property="og:title" content="GovAI — Sovereign AI Infrastructure for the Uzbekistan Government" />
+<meta property="og:description" content="Secure, sovereign AI infrastructure for 100,000+ public servants. ChatGPT, but for government — and it never leaves the country." />
 <meta property="og:type" content="website" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000000'/%3E%3Cpath d='M9 20V12l7 8 7-8v8' stroke='%23ffffff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
-<link rel="stylesheet" href="assets/style.css?v=10" />
-<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23162e51'/%3E%3Cpath d='M9 20V12l7 8 7-8v8' stroke='%23ffffff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.1/dist/css/uswds.min.css" />
+<link rel="stylesheet" href="assets/style.css?v=13" />
 </head>
 <body>
 
-<div class="bg-grid" aria-hidden="true"></div>
-<div class="bg-glow" aria-hidden="true"></div>
-<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
-<header class="nav" id="nav">
-  <div class="nav-inner container">
-    <a href="#top" class="brand">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="9" fill="#ffffff"/><path d="M9 20V12l7 8 7-8v8" stroke="#000000" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </span>
-      GovAI
-    </a>
-
-    <nav class="nav-links" id="navLinks">
-      <a href="#problem">Problem</a>
-      <a href="#solution">Solution</a>
-      <a href="#product">Product</a>
-      <a href="#market">Market</a>
-      <a href="#traction">Traction</a>
-      <a href="#team">Team</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-
-    <div class="nav-actions">
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo">
+        <em class="usa-logo__text"><a href="#top" title="GovAI">GovAI</a></em>
+      </div>
+      <button type="button" class="usa-menu-btn">Menu</button>
     </div>
+    <nav class="usa-nav">
+      <button type="button" class="usa-nav__close">
+        <img src="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.1/dist/img/usa-icons/close.svg" role="img" alt="Close" />
+      </button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#problem"><span>Problem</span></a></li>
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#solution"><span>Solution</span></a></li>
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#product"><span>Product</span></a></li>
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#market"><span>Market</span></a></li>
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#traction"><span>Traction</span></a></li>
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#team"><span>Team</span></a></li>
+        <li class="usa-nav__primary-item"><a class="usa-nav__link" href="#faq"><span>FAQ</span></a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<main id="top">
-
-  <!-- INTRO / GATE -->
-  <section class="intro" id="intro">
-    <div class="intro-rings" aria-hidden="true"><span></span><span></span><span></span></div>
-    <div class="intro-spotlight" id="introSpotlight" aria-hidden="true"></div>
-    <div class="container intro-inner">
-      <span class="intro-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="40" height="40"><rect width="32" height="32" rx="9" fill="#ffffff"/><path d="M9 20V12l7 8 7-8v8" stroke="#000000" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </span>
-      <h1 class="intro-word">GovAI</h1>
-      <p class="intro-tag">AI infrastructure for government.<br class="br-desktop" />Built to end bureaucracy.</p>
-      <a href="#hero" class="intro-btn">
-        <span>Find Out</span>
-        <svg class="intro-btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
-  </section>
-
-  <!-- MARQUEE -->
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <span>Sovereign AI</span><span class="dot">&middot;</span>
-      <span>Secure Infrastructure</span><span class="dot">&middot;</span>
-      <span>Government-Grade</span><span class="dot">&middot;</span>
-      <span>100,000+ Public Servants</span><span class="dot">&middot;</span>
-      <span>End for Bureaucracy</span><span class="dot">&middot;</span>
-      <span>Sovereign AI</span><span class="dot">&middot;</span>
-      <span>Secure Infrastructure</span><span class="dot">&middot;</span>
-      <span>Government-Grade</span><span class="dot">&middot;</span>
-      <span>100,000+ Public Servants</span><span class="dot">&middot;</span>
-      <span>End for Bureaucracy</span><span class="dot">&middot;</span>
-    </div>
-  </div>
+<main id="main-content">
 
   <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="container hero-inner">
-      <p class="eyebrow reveal">GovAI &middot; August 2026</p>
-      <h1 class="hero-title reveal">
-        Building the new <span class="grad">GovAI</span> platform
-      </h1>
-      <p class="hero-sub reveal">
-        LLMs for the Uzbekistan Government.<br class="br-desktop" />
-        An end for bureaucracy.
-      </p>
-      <div class="hero-actions reveal">
-        <a href="#product" class="btn btn-primary btn-lg">See the product ↓</a>
+  <section class="usa-hero" aria-label="Introduction" id="top">
+    <div class="grid-container">
+      <div class="usa-hero__callout">
+        <h1 class="usa-hero__heading">
+          <span class="usa-hero__heading--alt">GovAI &middot; Founded 2026</span>
+          Sovereign AI infrastructure for government.
+        </h1>
+        <p>LLMs, agents, and templates for the Uzbekistan government — run entirely on local infrastructure, built to end bureaucracy.</p>
+        <a class="usa-button" href="#product">See the product</a>
+        <a class="usa-button usa-button--outline usa-button--inverse" href="#faq">How it works</a>
       </div>
     </div>
-    <div class="hero-scroll" aria-hidden="true"><span></span></div>
   </section>
 
-  <!-- PROBLEM -->
-  <section class="section" id="problem">
-    <div class="container">
-      <p class="eyebrow reveal">The problem</p>
-      <h2 class="section-title reveal">Government work still runs on manual labor</h2>
+  <div class="grid-container shot-wrap">
+    <figure class="usa-prose margin-0">
+      <img src="assets/product-screenshot.jpg" class="shot-frame" alt="GovAI product screenshot: a secure chat interface running deep research on Uzbekistan's AI adoption strategy, marked 'Locally processed · End-to-end private'" loading="eager" />
+      <figcaption>GovAI's research assistant, running a deep-research query entirely on local infrastructure.</figcaption>
+    </figure>
+  </div>
 
-      <div class="grid-3">
-        <div class="card reveal tilt">
-          <span class="card-index">01</span>
-          <h3>Data leaves the country</h3>
-          <p>Sensitive government data flows out through foreign AI providers with every prompt.</p>
+  <!-- PROBLEM -->
+  <section class="usa-section" id="problem">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">The problem</p>
+      <h2>Government work still runs on manual labor</h2>
+
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <div class="usa-card__container">
+            <div class="usa-card__body">
+              <span class="index-num">01</span>
+              <h3>Data leaves the country</h3>
+              <p>Sensitive government data flows out through foreign AI providers with every prompt.</p>
+            </div>
+          </div>
         </div>
-        <div class="card reveal tilt">
-          <span class="card-index">02</span>
-          <h3>No tools for employees</h3>
-          <p>Public servants have no AI tooling built for how their work actually happens.</p>
+        <div class="tablet:grid-col-4">
+          <div class="usa-card__container">
+            <div class="usa-card__body">
+              <span class="index-num">02</span>
+              <h3>No tools for employees</h3>
+              <p>Public servants have no AI tooling built for how their work actually happens.</p>
+            </div>
+          </div>
         </div>
-        <div class="card reveal tilt">
-          <span class="card-index">03</span>
-          <h3>The same manual work</h3>
-          <p>Drafting, reports, Word &amp; Excel — done by hand, every day, across every office.</p>
+        <div class="tablet:grid-col-4">
+          <div class="usa-card__container">
+            <div class="usa-card__body">
+              <span class="index-num">03</span>
+              <h3>The same manual work</h3>
+              <p>Drafting, reports, Word &amp; Excel — done by hand, every day, across every office.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- IMPACT -->
-  <section class="section impact" id="impact">
-    <div class="container">
-      <p class="eyebrow reveal">The impact</p>
-      <svg class="illus illus-network reveal" viewBox="0 0 600 200" fill="none" aria-hidden="true">
-        <g stroke="rgba(255,255,255,.25)" stroke-width="1.1">
-          <line x1="300" y1="100" x2="150" y2="55"/>
-          <line x1="300" y1="100" x2="120" y2="120"/>
-          <line x1="300" y1="100" x2="180" y2="165"/>
-          <line x1="300" y1="100" x2="420" y2="55"/>
-          <line x1="300" y1="100" x2="460" y2="115"/>
-          <line x1="300" y1="100" x2="430" y2="165"/>
-        </g>
-        <g class="illus-flow" stroke="rgba(255,255,255,.5)" stroke-width="1.2" stroke-dasharray="4 7">
-          <line x1="150" y1="55" x2="120" y2="120"/>
-          <line x1="120" y1="120" x2="180" y2="165"/>
-          <line x1="420" y1="55" x2="460" y2="115"/>
-          <line x1="460" y1="115" x2="430" y2="165"/>
-        </g>
-        <g fill="rgba(255,255,255,.75)">
-          <circle cx="150" cy="55" r="4"/>
-          <circle cx="120" cy="120" r="4"/>
-          <circle cx="180" cy="165" r="4"/>
-          <circle cx="420" cy="55" r="4"/>
-          <circle cx="460" cy="115" r="4"/>
-          <circle cx="430" cy="165" r="4"/>
-        </g>
-        <circle class="illus-hub" cx="300" cy="100" r="7" fill="#fff"/>
-      </svg>
-      <div class="impact-grid">
-        <div class="impact-stat reveal tilt">
-          <span class="impact-num" data-count-text="20–50%">0%</span>
-          <span class="impact-label">of time saved per employee</span>
+  <section class="usa-section bg-base-lightest" id="impact">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">The impact</p>
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <div class="usa-summary-box">
+            <span class="impact-num" data-count-text="20–50%">0%</span>
+            <p class="impact-label">of time saved per employee</p>
+          </div>
         </div>
-        <div class="impact-stat reveal tilt">
-          <span class="impact-num accent" data-count-text="+40%">0%</span>
-          <span class="impact-label">work quality boost in the office suite</span>
+        <div class="tablet:grid-col-4">
+          <div class="usa-summary-box">
+            <span class="impact-num accent" data-count-text="+40%">0%</span>
+            <p class="impact-label">work quality boost in the office suite</p>
+          </div>
         </div>
-        <div class="impact-stat reveal tilt">
-          <span class="impact-num" data-count-to="100000" data-count-suffix="+">0</span>
-          <span class="impact-label">public servants — the addressable workforce</span>
+        <div class="tablet:grid-col-4">
+          <div class="usa-summary-box">
+            <span class="impact-num" data-count-to="100000" data-count-suffix="+">0</span>
+            <p class="impact-label">public servants — the addressable workforce</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SOLUTION -->
-  <section class="section" id="solution">
-    <div class="container illus-wrap reveal">
-      <svg class="illus" viewBox="0 0 1200 400" fill="none" aria-hidden="true">
-        <circle class="illus-arc" cx="600" cy="200" r="170" stroke="rgba(255,255,255,.16)" stroke-width="1"/>
-        <circle class="illus-arc illus-arc-slow" cx="600" cy="200" r="210" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
-        <path class="illus-flow" d="M170,200 C205,130 245,130 280,200 C315,270 355,270 390,200" stroke="rgba(255,255,255,.5)" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 7"/>
-        <path class="illus-flow" d="M810,200 C845,130 885,130 920,200 C955,270 995,270 1030,200" stroke="rgba(255,255,255,.5)" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 7"/>
-        <circle cx="110" cy="200" r="52" stroke="rgba(255,255,255,.3)" stroke-width="1.4"/>
-        <path d="M70,168 A52,52 0 0 1 150,175" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M92,190 h36 M92,202 h36 M92,214 h24" stroke="rgba(255,255,255,.5)" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="1090" cy="200" r="52" stroke="rgba(255,255,255,.3)" stroke-width="1.4"/>
-        <path d="M1130,168 A52,52 0 0 0 1050,175" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M1068,200 l14,14 l28,-30" stroke="rgba(255,255,255,.6)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-        <path d="M600,105 L662,132 V196 C662,254 630,280 600,296 C570,280 538,254 538,196 V132 Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>
-        <g class="illus-hub">
-          <line x1="576" y1="178" x2="624" y2="178" stroke="rgba(255,255,255,.55)" stroke-width="1.4"/>
-          <line x1="576" y1="178" x2="600" y2="222" stroke="rgba(255,255,255,.55)" stroke-width="1.4"/>
-          <line x1="624" y1="178" x2="600" y2="222" stroke="rgba(255,255,255,.55)" stroke-width="1.4"/>
-          <circle cx="576" cy="178" r="5" fill="#fff"/>
-          <circle cx="624" cy="178" r="5" fill="#fff"/>
-          <circle cx="600" cy="222" r="5" fill="#fff"/>
-        </g>
-      </svg>
-    </div>
-    <div class="container narrow">
-      <p class="eyebrow reveal">The solution</p>
-      <h2 class="section-title reveal">We build secure AI infrastructure for government.</h2>
-      <p class="lead reveal">
-        We build secure LLMs with templates and agents that give every government employee
-        back their time. GovAI handles the sheets, emails, writing, files, and research
-        behind daily government work — generating the first draft so staff only need to
-        review and approve it.
-      </p>
-    </div>
-  </section>
-
-  <!-- PRODUCT -->
-  <section class="section" id="product">
-    <div class="container">
-      <p class="eyebrow reveal">The product</p>
-      <h2 class="section-title reveal">ChatGPT, but for Government.</h2>
-
-      <div class="grid-5">
-        <div class="feature reveal tilt">
-          <span class="feature-index">01</span>
-          <h3>Integrated with government portals</h3>
-          <p>Connected directly with Ijro.uz and existing workflows.</p>
-        </div>
-        <div class="feature reveal tilt">
-          <span class="feature-index">02</span>
-          <h3>Automated workspace</h3>
-          <p>AI agents handle recurring tasks across the office suite.</p>
-        </div>
-        <div class="feature reveal tilt">
-          <span class="feature-index">03</span>
-          <h3>AI specialists per sector</h3>
-          <p>Purpose-built specialists for each government sector.</p>
-        </div>
-        <div class="feature reveal tilt">
-          <span class="feature-index">04</span>
-          <h3>Secure &amp; sovereign</h3>
-          <p>Encrypted chats, run on sovereign infrastructure end to end.</p>
-        </div>
-        <div class="feature reveal tilt">
-          <span class="feature-index">05</span>
-          <h3>GovAI Web &amp; Research</h3>
-          <p>Built-in web access and deep research, kept in-country.</p>
-        </div>
+  <section class="usa-section" id="solution">
+    <div class="grid-container">
+      <div class="usa-prose">
+        <p class="usa-tag tag-eyebrow">The solution</p>
+        <h2>We build secure AI infrastructure for government.</h2>
+        <p class="usa-intro">
+          We build secure LLMs with templates and agents that give every government employee
+          back their time. GovAI handles the sheets, emails, writing, files, and research
+          behind daily government work — generating the first draft so staff only need to
+          review and approve it.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- MARKET -->
-  <section class="section" id="market">
-    <div class="container">
-      <p class="eyebrow reveal">The market</p>
-      <h2 class="section-title reveal">The market for sovereign AI software</h2>
+  <!-- PRODUCT -->
+  <section class="usa-section bg-base-lightest" id="product">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">The product</p>
+      <h2>ChatGPT, but for Government.</h2>
 
-      <div class="market-grid">
-        <div class="market-chart reveal" aria-hidden="true">
+      <ol class="usa-process-list">
+        <li class="usa-process-list__item">
+          <h3 class="usa-process-list__heading">Integrated with government portals</h3>
+          <p>Connected directly with Ijro.uz and existing workflows.</p>
+        </li>
+        <li class="usa-process-list__item">
+          <h3 class="usa-process-list__heading">Automated workspace</h3>
+          <p>AI agents handle recurring tasks across the office suite.</p>
+        </li>
+        <li class="usa-process-list__item">
+          <h3 class="usa-process-list__heading">AI specialists per sector</h3>
+          <p>Purpose-built specialists for each government sector.</p>
+        </li>
+        <li class="usa-process-list__item">
+          <h3 class="usa-process-list__heading">Secure &amp; sovereign</h3>
+          <p>Encrypted chats, run on sovereign infrastructure end to end.</p>
+        </li>
+        <li class="usa-process-list__item">
+          <h3 class="usa-process-list__heading">GovAI Web &amp; Research</h3>
+          <p>Built-in web access and deep research, kept in-country.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- MARKET -->
+  <section class="usa-section" id="market">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">The market</p>
+      <h2>The market for sovereign AI software</h2>
+
+      <div class="grid-row grid-gap flex-align-end">
+        <div class="tablet:grid-col-6">
           <div class="bar-row">
             <div class="bar">
               <div class="bar-track"><div class="bar-fill" style="--h:23%"></div></div>
@@ -258,21 +192,20 @@
               <span class="bar-period">Today</span>
             </div>
             <div class="bar">
-              <div class="bar-track"><div class="bar-fill grad-fill" style="--h:100%"></div></div>
+              <div class="bar-track"><div class="bar-fill bar-fill--accent" style="--h:100%"></div></div>
               <span class="bar-value">$109B</span>
               <span class="bar-period">2030</span>
             </div>
           </div>
         </div>
-
-        <div class="market-facts">
-          <div class="market-fact reveal">
+        <div class="tablet:grid-col-6">
+          <div class="usa-summary-box margin-bottom-2">
             <span class="market-fact-num">16%</span>
-            <span class="market-fact-label">CAGR growth of the sovereign AI market</span>
+            <p class="market-fact-label">CAGR growth of the sovereign AI market</p>
           </div>
-          <div class="market-fact reveal">
+          <div class="usa-summary-box">
             <span class="market-fact-num">22.5%</span>
-            <span class="market-fact-label">of sovereign AI infrastructure is software</span>
+            <p class="market-fact-label">of sovereign AI infrastructure is software</p>
           </div>
         </div>
       </div>
@@ -280,132 +213,126 @@
   </section>
 
   <!-- TRACTION -->
-  <section class="section" id="traction">
-    <div class="container">
-      <p class="eyebrow reveal">Governmental AI adaptation</p>
-      <h2 class="section-title reveal">What we're already seeing on the ground</h2>
+  <section class="usa-section bg-base-lightest" id="traction">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">Governmental AI adaptation</p>
+      <h2>What we're already seeing on the ground</h2>
 
-      <div class="grid-3">
-        <div class="card reveal tilt">
-          <span class="card-num">50</span>
-          <p>public servants surveyed in the initial pilot</p>
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <div class="usa-card__container">
+            <div class="usa-card__body">
+              <span class="index-num accent">50</span>
+              <p>public servants surveyed in the initial pilot</p>
+            </div>
+          </div>
         </div>
-        <div class="card reveal tilt">
-          <span class="card-num">~90%</span>
-          <p>want to use AI in their work, according to the survey</p>
+        <div class="tablet:grid-col-4">
+          <div class="usa-card__container">
+            <div class="usa-card__body">
+              <span class="index-num accent">~90%</span>
+              <p>want to use AI in their work, according to the survey</p>
+            </div>
+          </div>
         </div>
-        <div class="card reveal tilt">
-          <span class="card-num">66.7%</span>
-          <p>believe AI can help with translation, drafting documents, or research</p>
+        <div class="tablet:grid-col-4">
+          <div class="usa-card__container">
+            <div class="usa-card__body">
+              <span class="index-num accent">66.7%</span>
+              <p>believe AI can help with translation, drafting documents, or research</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- COMPARISON -->
-  <section class="section" id="compare">
-    <div class="container">
-      <p class="eyebrow reveal">Why sovereign</p>
-      <h2 class="section-title reveal">Foreign Big Tech vs. GovAI</h2>
+  <section class="usa-section" id="compare">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">Why sovereign</p>
+      <h2>Foreign Big Tech vs. GovAI</h2>
 
-      <div class="compare-grid reveal">
-        <div class="compare-col tilt">
-          <h3 class="compare-head">OpenAI, Microsoft, Google</h3>
-          <ul class="compare-list">
-            <li>Rents foreign-controlled infrastructure</li>
-            <li>Extra pay for privacy (data residency)</li>
-            <li>Models are still locked</li>
-          </ul>
-        </div>
-        <div class="compare-col compare-col-highlight tilt">
-          <svg class="illus-shield" viewBox="0 0 160 160" fill="none" aria-hidden="true">
-            <g stroke="rgba(255,255,255,.3)" stroke-width="1">
-              <line x1="80" y1="8" x2="80" y2="22"/>
-              <line x1="80" y1="138" x2="80" y2="152"/>
-              <line x1="8" y1="80" x2="22" y2="80"/>
-              <line x1="138" y1="80" x2="152" y2="80"/>
-              <line x1="26" y1="26" x2="36" y2="36"/>
-              <line x1="134" y1="26" x2="124" y2="36"/>
-              <line x1="26" y1="134" x2="36" y2="124"/>
-              <line x1="134" y1="134" x2="124" y2="124"/>
-            </g>
-            <path d="M80,38 L112,52 V82 C112,110 98,124 80,134 C62,124 48,110 48,82 V52 Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>
-            <rect x="66" y="78" width="28" height="22" rx="3" stroke="#fff" stroke-width="1.6"/>
-            <path d="M71,78 V68 A9,9 0 0 1 89,68 V78" stroke="#fff" stroke-width="1.6"/>
-          </svg>
-          <h3 class="compare-head grad">GovAI</h3>
-          <ul class="compare-list">
-            <li>Full ownership of the product</li>
-            <li>Runs on local government servers &amp; infrastructure</li>
-            <li>Full control over models &amp; underlying systems</li>
-          </ul>
-        </div>
-      </div>
+      <table class="usa-table usa-table--borderless width-full">
+        <thead>
+          <tr>
+            <th scope="col">OpenAI, Microsoft, Google</th>
+            <th scope="col">GovAI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rents foreign-controlled infrastructure</td>
+            <td>Full ownership of the product</td>
+          </tr>
+          <tr>
+            <td>Extra pay for privacy (data residency)</td>
+            <td>Runs on local government servers &amp; infrastructure</td>
+          </tr>
+          <tr>
+            <td>Models are still locked</td>
+            <td>Full control over models &amp; underlying systems</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
   <!-- TEAM -->
-  <section class="section" id="team">
-    <div class="container">
-      <p class="eyebrow reveal">Team</p>
-      <h2 class="section-title reveal">Built by people who ship.</h2>
+  <section class="usa-section bg-base-lightest" id="team">
+    <div class="grid-container">
+      <p class="usa-tag tag-eyebrow">Team</p>
+      <h2>Built by people who ship.</h2>
 
-      <div class="team-grid">
-        <div class="team-card reveal tilt">
-          <div class="team-photo">
-            <img src="assets/team/abdulaziz.jpg" alt="Abdulaziz Muydinjonov" loading="lazy" />
-          </div>
-          <div class="team-info">
-            <h3>Abdulaziz Muydinjonov</h3>
-            <p>Developer</p>
-          </div>
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-3">
+          <img src="assets/team/abdulaziz.jpg" alt="Abdulaziz Muydinjonov" class="team-photo" loading="lazy" />
+          <p class="team-name">Abdulaziz Muydinjonov</p>
+          <p class="team-role">Developer</p>
         </div>
-        <div class="team-card reveal tilt">
-          <div class="team-photo">
-            <img src="assets/team/asqar.webp" alt="Asqar Arslonov" loading="lazy" />
-          </div>
-          <div class="team-info">
-            <h3>Asqar Arslonov</h3>
-            <p>Founder of GovAI</p>
-          </div>
+        <div class="tablet:grid-col-3">
+          <img src="assets/team/asqar.webp" alt="Asqar Arslonov" class="team-photo" loading="lazy" />
+          <p class="team-name">Asqar Arslonov</p>
+          <p class="team-role">Founder of GovAI</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section class="section" id="faq">
-    <div class="container narrow">
-      <p class="eyebrow reveal">FAQ</p>
-      <h2 class="section-title reveal">Questions, answered.</h2>
+  <section class="usa-section" id="faq">
+    <div class="grid-container">
+      <div class="usa-prose">
+        <p class="usa-tag tag-eyebrow">FAQ</p>
+        <h2>Questions, answered.</h2>
+      </div>
 
-      <div class="faq-list">
-        <div class="faq-item reveal">
-          <button class="faq-question" aria-expanded="false">
-            <span>Is government data stored outside Uzbekistan?</span>
-            <span class="faq-toggle" aria-hidden="true"></span>
+      <div class="usa-accordion">
+        <h3 class="usa-accordion__heading">
+          <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a1">
+            Is government data stored outside Uzbekistan?
           </button>
-          <div class="faq-answer">
-            <p>No. GovAI runs entirely on local government servers and infrastructure — no data ever leaves the country.</p>
-          </div>
+        </h3>
+        <div id="a1" class="usa-accordion__content usa-prose" hidden>
+          <p>No. GovAI runs entirely on local government servers and infrastructure — no data ever leaves the country.</p>
         </div>
-        <div class="faq-item reveal">
-          <button class="faq-question" aria-expanded="false">
-            <span>Does GovAI replace public servants?</span>
-            <span class="faq-toggle" aria-hidden="true"></span>
+
+        <h3 class="usa-accordion__heading">
+          <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a2">
+            Does GovAI replace public servants?
           </button>
-          <div class="faq-answer">
-            <p>No. GovAI drafts and prepares the work — every output is still reviewed and approved by staff before it's used.</p>
-          </div>
+        </h3>
+        <div id="a2" class="usa-accordion__content usa-prose" hidden>
+          <p>No. GovAI drafts and prepares the work — every output is still reviewed and approved by staff before it's used.</p>
         </div>
-        <div class="faq-item reveal">
-          <button class="faq-question" aria-expanded="false">
-            <span>How is GovAI different from ChatGPT or other AI tools?</span>
-            <span class="faq-toggle" aria-hidden="true"></span>
+
+        <h3 class="usa-accordion__heading">
+          <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a3">
+            How is GovAI different from ChatGPT or other AI tools?
           </button>
-          <div class="faq-answer">
-            <p>GovAI is built specifically for government workflows — integrated with portals like Ijro.uz, with sector-specific AI specialists and full sovereign control over the models and infrastructure.</p>
-          </div>
+        </h3>
+        <div id="a3" class="usa-accordion__content usa-prose" hidden>
+          <p>GovAI is built specifically for government workflows — integrated with portals like Ijro.uz, with sector-specific AI specialists and full sovereign control over the models and infrastructure.</p>
         </div>
       </div>
     </div>
@@ -413,17 +340,23 @@
 
 </main>
 
-<footer class="footer">
-  <div class="container footer-inner">
-    <span>GovAI &copy; 2026</span>
-    <span class="footer-tag">Secure AI infrastructure for government.</span>
+<footer class="usa-footer usa-footer--slim">
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#top">Return to top</a>
+  </div>
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="usa-footer__primary-container grid-row">
+        <div class="mobile-lg:grid-col-8">
+          <p class="margin-0">GovAI &copy; 2026 — Secure AI infrastructure for government.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
 
-<a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">
-  <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-</a>
-
-<script src="assets/script.js?v=4"></script>
+<script src="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.1/dist/js/uswds-init.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.1/dist/js/uswds.min.js"></script>
+<script src="assets/script.js?v=7"></script>
 </body>
 </html>

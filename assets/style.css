@@ -365,6 +365,7 @@ main, header, footer{ position: relative; z-index: 1; }
 .market-fact{ display:flex; flex-direction:column; gap: 4px; }
 .market-fact-num{ font-size: clamp(2.2rem,4vw,3rem); font-weight: 800; }
 .market-fact-label{ color: var(--text-dim); font-size: .95rem; max-width: 320px; }
+.market-source{ margin: 28px 0 0; color: var(--text-dimmer); font-size: .82rem; }
 
 /* ---------- Compare ---------- */
 .compare-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 22px; }
@@ -401,6 +402,7 @@ main, header, footer{ position: relative; z-index: 1; }
 .team-info{ margin-top: 14px; text-align:center; }
 .team-info h3{ margin: 0 0 4px; font-size: .92rem; }
 .team-info p{ margin:0; color: var(--text-dim); font-size: .82rem; }
+.team-info .team-bio{ margin-top: 6px; color: var(--text-dimmer); font-size: .78rem; line-height: 1.4; }
 
 /* ---------- FAQ ---------- */
 .faq-list{ display:flex; flex-direction:column; }
